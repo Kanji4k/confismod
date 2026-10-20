@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "client.confis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FreecamMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "confis0oooooo",
+  "version": "1.0.0+1.21.11",
+  "name": "Confis0oooooo Client",
+  "description": "Lunar-style client menu with draggable HUD mods, messenger, item guide, hitboxes and more. Press Right Shift.",
+  "authors": ["Confis0oooooo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["client.confis.ConfisClient"]
+  },
+  "mixins": ["confis0oooooo.mixins.json", "confis0oooooo.freecam.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": ">=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
